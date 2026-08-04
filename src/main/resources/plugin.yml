@@ -1,0 +1,9 @@
+name: CornflowerRegion
+version: 1.0
+main: me.ducsad.cornflower.CornflowerPlugin
+api-version: "1.21"
+
+author: DucSad
+
+commands: {}
+permissions: {}
