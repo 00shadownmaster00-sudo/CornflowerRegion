@@ -1,11 +1,21 @@
-world: world
+# Có thể thêm bao nhiêu region tùy ý, mỗi region đặt tên riêng (region1, region2, vuon-hoa-spawn, ...)
+# Mỗi region có thể dùng "flower: TEN_HOA" (1 loại) hoặc "flowers: [HOA_A, HOA_B]" (random nhiều loại)
 
-min-x: 1406
-max-x: 1412
+regions:
+  region1:
+    world: world
+    min-x: 1406
+    max-x: 1412
+    y: 237
+    min-z: 2603
+    max-z: 2613
+    flower: CORNFLOWER
 
-y: 238
-
-min-z: 2603
-max-z: 2613
-
-flower: CORNFLOWER
+  region2:
+    world: world
+    min-x: 100
+    max-x: 120
+    y: 65
+    min-z: -50
+    max-z: -30
+    flower: BLUE_ORCHID
